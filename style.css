@@ -1,3 +1,4 @@
+/* OVERALL FONT AND BACKGRLUND STYLING */
 .font {
     font-family: 'Roboto', sans-serif;
 }
@@ -6,6 +7,12 @@
     background-color: rgb(228, 228, 228);
 }
 
+.big-font {
+    font-size: 26px;
+    font-style: bold;
+}
+
+/* TITLES AND HEADERS STYLING  */
 #title {
     display: flex;
     justify-content: center;
@@ -29,8 +36,8 @@
 }
 
 #sub-title-2 {
-    margin-right: 24%;
-    margin-left: 24%;
+    margin-right: 25%;
+    margin-left: 25%;
     color: black;
     display: flex;
     justify-content: center;
@@ -73,11 +80,8 @@
     border-bottom: thin solid gray;
 }
 
-.post {
-    padding-top: 4%;
-}
 
-
+/* BUTTON STYLING */
 .button {
     display: flex;
     justify-content: center;
@@ -117,11 +121,8 @@ button:active {
     transform: scale(0.99);
 }
 
-.big-font {
-    font-size: 26px;
-    font-style: bold;
-}
 
+/* MIDDLE CONTENT SECTION CSS */
 .one-row {
     display: flex;
     justify-content: space-evenly;
@@ -136,7 +137,7 @@ button:active {
 .container img {
     display: flex;
     height: 185px;
-    width: 300px;
+    width: 275px;
     border-top: medium solid gray;
     border-bottom: medium solid gray;
 }
@@ -178,6 +179,10 @@ button:active {
     width: 70%;
     margin-left: 20%;
 
+}
+
+.post {
+    padding-top: 4%;
 }
 
 .sidebar {
@@ -225,6 +230,7 @@ button:active {
 }
 
 
+/* FOOTER CSS  */
 #footer-contact-info {
     display: flex;
     flex-direction: row;
@@ -390,30 +396,28 @@ button:active {
 }
 
 
+/* LEARN MORE OPPOSITE FLEX BOX CSS */
 .left-sidebar {
     display: flex;
     flex-direction: column;
     padding-top: .5%;
     border-top: medium solid gray;
     border-bottom: medium solid gray;
-    width: 30%;
-    margin-right: 3%;
-    margin-left: 25%;
+    width: 40%;
+    margin-right: 11%;
+    margin-left: 19%;
     margin-top: 3.5%;
 }
 
-.right-content {
+.right-sidebar {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin-right: 20%;
+    width: 60%;
+    margin-right: 19%;
 }
 
 
-
-
-
-
+/* BLOG-POST CSS */
 .only-post {
     display: flex;
     justify-content: center;
