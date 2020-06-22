@@ -430,3 +430,11 @@ button:active {
     width: 100%;
     height: 100%;
 }
+
+ #entire-footer #content-wrapper #left #footer #footer-content #footer-contact-info #footer-form_container textarea #name-email:focus{ 
+         background-color: black; 
+       } 
+
+#focus:focus{
+    background-color: gray;
+}
