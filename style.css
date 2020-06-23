@@ -1,0 +1,440 @@
+/* OVERALL FONT AND BACKGRLUND STYLING */
+.font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-color: rgb(228, 228, 228);
+}
+
+.big-font {
+    font-size: 26px;
+    font-style: bold;
+}
+
+/* TITLES AND HEADERS STYLING  */
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 285%;
+    padding-bottom: .3%;
+    margin-top: 4%;
+    color: rgb(6, 155, 155);
+    text-shadow: 2px 2px #bebebe;
+}
+
+#no-underline {
+    text-decoration: none;
+}
+
+#sub-title {
+    display: flex;
+    justify-content: center;
+    font-size: 70%;
+    padding-bottom: 3%;
+    color: black;
+}
+
+#sub-title-2 {
+    margin-right: 25%;
+    margin-left: 25%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-top: large solid gray;
+    border-top-style: double;
+    padding-top: 2%;
+    font-size: 150%;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#blue-color {
+    color: rgb(6, 155, 155);
+}
+
+#image-color {
+    color: rgb(6, 155, 155);
+}
+
+#double-line {
+    height: 10px;
+    width: 100%;
+    border-top: thin solid gray;
+    border-bottom: thin solid gray;
+}
+
+#double-lines {
+    height: 10px;
+    width: 100%;
+    border-top: thin solid gray;
+    border-bottom: thin solid gray;
+}
+
+#line {
+    height: 10px;
+    width: 100%;
+    border-bottom: thin solid gray;
+}
+
+
+/* BUTTON STYLING */
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.tell-me-button {
+    display: inline-block;
+    border: none;
+    margin-top: 2%;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: rgb(6, 155, 155);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+        transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: rgb(6, 155, 155);
+    ;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+
+/* MIDDLE CONTENT SECTION CSS */
+.one-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 22%;
+    margin-left: 22%;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    display: flex;
+    height: 185px;
+    width: 275px;
+    border-top: medium solid gray;
+    border-bottom: medium solid gray;
+}
+
+.container div p {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    padding-top: 3%;
+}
+
+.container-1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 img {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 3%;
+
+}
+
+.text-block {
+    position: absolute;
+    height: 50px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 20%;
+
+}
+
+.post {
+    padding-top: 4%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: .2%;
+    border-top: medium solid gray;
+    border-bottom: medium solid gray;
+    width: 30%;
+    margin-right: 19%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+
+.dates {
+    padding-top: 1%;
+    border-bottom: thin solid gray;
+}
+
+.something-post {
+    border-top: thin solid gray;
+    padding-bottom: 2%;
+}
+
+.sidebar .something-post #text-wrap {
+    float: left;
+    margin: 10px;
+}
+
+.features #main .left-sidebar .something-post div #text-wrap {
+    float: left;
+    margin: 10px;
+}
+
+.something-title {
+    font-style: bold;
+
+}
+
+.features {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%
+}
+
+
+/* FOOTER CSS  */
+#footer-contact-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+/* Redone Footer Section */
+#entire-footer {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+    background-color: rgb(155, 155, 155);
+    margin-top: 3%;
+}
+
+#footer-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 80%;
+}
+
+#content-wrapper {
+    display: flex;
+    width: 60%;
+    height: 60%;
+}
+
+#footer-content {
+    margin-top: 2%;
+
+}
+
+#footer-form-container-2 {
+    margin-left: 2%;
+}
+
+#center {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#left {
+    width: 50%;
+    padding-left: 15%;
+
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 15%;
+}
+
+#text {
+    height: 18%
+}
+
+#icons {
+    display: flex;
+    height: 100%;
+    font-size: 90%;
+    flex-direction: row;
+
+}
+
+#icon-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding-top: 5%;
+    width: 50%;
+    height: 100%;
+}
+
+#icon-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding-top: 5%;
+    width: 50%;
+    height: 100%;
+}
+
+#address {
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#large-home {
+    height: 40%;
+}
+
+#phone-number {
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#email {
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#instagram {
+    height: 25%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#twitter {
+    height: 25%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#facebook {
+    height: 25%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#dribbble {
+    height: 25%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-images {
+    width: 15%;
+    display: flex;
+
+
+}
+
+
+/* LEARN MORE OPPOSITE FLEX BOX CSS */
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5%;
+    border-top: medium solid gray;
+    border-bottom: medium solid gray;
+    width: 40%;
+    margin-right: 11%;
+    margin-left: 19%;
+    margin-top: 3.5%;
+}
+
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 19%;
+}
+
+
+/* BLOG-POST CSS */
+.only-post {
+    display: flex;
+    justify-content: center;
+    margin-right: 24%;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+
+.container #post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+ #entire-footer #content-wrapper #left #footer #footer-content #footer-contact-info #footer-form_container textarea #name-email:focus{ 
+         background-color: black; 
+       } 
+
+#focus:focus{
+    background-color: gray;
+}
